@@ -14,6 +14,7 @@ Each task focuses on applying machine learning and data science techniques to so
 - **Tech Stack:** Python, Pandas, Matplotlib, Scikit-learn
 - **Models Used:** Linear Regression, Random Forest
 - **Result:** Achieved R² = 0.98 with Random Forest.
+- **dataset link : (https://www.kaggle.com/datasets/bumba5341/advertisingcsv) from kaggl.
 
 ---
 
@@ -22,6 +23,7 @@ Each task focuses on applying machine learning and data science techniques to so
 - **Tech Stack:** Python, Pandas, Scikit-learn
 - **Models Used:** Linear Regression, Decision Tree
 - **Result:** RMSE = 0.77, very good prediction accuracy.
+- **dataset link : (https://www.kaggle.com/datasets/vijayaadithyanvg/car-price-predictionused-cars) from kaggl.
 
 ---
 
@@ -30,6 +32,8 @@ Each task focuses on applying machine learning and data science techniques to so
 - **Tech Stack:** Python, Scikit-learn
 - **Model Used:** Decision Tree Classifier
 - **Result:** 100% accuracy on test dataset.
+- **dataset link : (https://www.kaggle.com/datasets/saurabh00007/iriscsv) from kaggl.
+- 
 
 ---
 
