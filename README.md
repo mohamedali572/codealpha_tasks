@@ -9,12 +9,15 @@ Each task focuses on applying machine learning and data science techniques to so
 
 ## **Tasks Overview**
 
-### **Task 1: Sales Prediction**
-- **Goal:** Predict future sales based on historical data.
-- **Tech Stack:** Python, Pandas, Matplotlib, Scikit-learn
-- **Models Used:** Linear Regression, Random Forest
-- **Result:** Achieved R² = 0.98 with Random Forest.
-- **dataset link : (https://www.kaggle.com/datasets/bumba5341/advertisingcsv) from kaggl.
+---
+
+### **Task 1: Iris Flower Classification**
+- **Goal:** Classify Iris flowers into three species (Setosa, Versicolor, Virginica) based on their measurements.
+- **Tech Stack:** Python, Scikit-learn
+- **Model Used:** Decision Tree Classifier
+- **Result:** 100% accuracy on test dataset.
+- **dataset link : (https://www.kaggle.com/datasets/saurabh00007/iriscsv) from kaggl.
+
 
 ---
 
@@ -27,12 +30,12 @@ Each task focuses on applying machine learning and data science techniques to so
 
 ---
 
-### **Task 3: Iris Flower Classification**
-- **Goal:** Classify Iris flowers into three species (Setosa, Versicolor, Virginica) based on their measurements.
-- **Tech Stack:** Python, Scikit-learn
-- **Model Used:** Decision Tree Classifier
-- **Result:** 100% accuracy on test dataset.
-- **dataset link : (https://www.kaggle.com/datasets/saurabh00007/iriscsv) from kaggl.
+### **Task 3: Sales Prediction**
+- **Goal:** Predict future sales based on historical data.
+- **Tech Stack:** Python, Pandas, Matplotlib, Scikit-learn
+- **Models Used:** Linear Regression, Random Forest
+- **Result:** Achieved R² = 0.98 with Random Forest.
+- **dataset link : (https://www.kaggle.com/datasets/bumba5341/advertisingcsv) from kaggl.
 - 
 
 ---
