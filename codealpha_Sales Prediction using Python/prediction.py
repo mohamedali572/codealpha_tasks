@@ -1,17 +1,21 @@
-import joblib
-import pandas as pd
+import numpy as np
 
-def predict_sales(new_data, scaler):
-    model = joblib.load("models/sales_model.pkl")
-    
-    # Create dataframe with same feature names
-    feature_names = ['TV', 'Radio', 'Newspaper']
-    new_df = pd.DataFrame([new_data], columns=feature_names)
-    
-    # Scale using the scaler
-    scaled_data = scaler.transform(new_df)
-    
-    # Predict sales
-    prediction = model.predict(scaled_data)
+def predict_sales(new_data, scaler, model):
+    """
+    Make prediction using the provided trained model and scaler.
+    """
+    # Scale the new data
+    new_data_scaled = scaler.transform(np.array(new_data).reshape(1, -1))
+
+    # Predict using the selected model
+    prediction = model.predict(new_data_scaled)
+
     return prediction[0]
+
+
+
+
+
+
+
 
